@@ -13,8 +13,12 @@ html {
   box-sizing: inherit;
 }
 body {
-  background: rgb(63,94,251);
-  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(88,152,219,1) 95%);
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(88, 152, 219, 1) 95%
+  );
   font-family: "Concert One", cursive;
   min-height: 100vh;
 }

@@ -36,8 +36,9 @@ form input,
 form button {
   padding: 0.5rem;
   border: none;
-  font-size: 2rem;
+  font-size: 1.8rem;
   background: white;
+  outline: none;
 }
 form button {
   color: rgb(30, 107, 207);
@@ -48,4 +49,49 @@ form button {
 form button:hover {
   background: rgb(5, 63, 138);
   color: white;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo-list {
+  list-style: none;
+  min-width: 30%;
+}
+.todo {
+  margin: 0.5rem;
+  background: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo li {
+  flex: 1;
+}
+.trash-btn,
+.complete-btn {
+  background: rgb(13, 88, 185);
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  outline: none;
+}
+.complete-btn {
+  background: rgb(34, 179, 41);
+}
+.todo-item {
+  padding: 0rem 0.5rem;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
